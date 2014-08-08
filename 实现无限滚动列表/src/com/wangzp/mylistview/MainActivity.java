@@ -67,7 +67,7 @@ public class MainActivity extends SmallAppleActivity {
 		}
 		System.out.println("pageIndex:" + pageIndex);
 		client = new AsyncHttpClient();
-		String url = "http://j.shenguang.com/licaikuaibao/dataAPI.aspx?channelId=13&pageIndex="
+		String url = "http://192.168.0.111/licaikuaibao/dataAPI.aspx?channelId=13&pageIndex="
 				+ pageIndex;
 		client.get(url, new TextHttpResponseHandler() {
 
